@@ -4,13 +4,13 @@
 
 ### Overview
 
-Address Parser is a tool developed as part of my application for the Sonic Software Engineer position. It extracts standard components from address strings, such as recipient name, street, city, state, and ZIP code.
+Address Parser is a tool developed as part of my application for the Sonic Software Engineer position. It extracts standard components from address strings, such as recipient, street, city, state, and ZIP code.
 
 > **Note:** This parser is currently designed for U.S.-based addresses.
 
 ### Features
 
-- Extracts recipient name, street address, city, state, and ZIP code.
+- Extracts recipient, street address, city, state, and ZIP code.
 - Includes test cases for validation.
 
 Example Input:
@@ -25,7 +25,7 @@ Example Output:
 
 ```
     {
-    "recipient_name": "Sonic",
+    "recipient": "Sonic",
     "street_address": "2260 Apollo Way",
     "city": "Santa Rosa",
     "state": "CA",
@@ -70,7 +70,7 @@ Parse Sonic's main address as it would appear on an envelope into standard compo
 
 To parse Sonic’s main address into standard components, we would identify the following parts:
 
-1. Recipient Name: Sonic
+1. Recipient: Sonic
 2. Street Address: 2260 Apollo Way
 3. City: Santa Rosa
 4. State: CA
